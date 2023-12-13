@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#191A19"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="250px"
+        android:layout_height="100px"
+        android:textColor="#1E5128"
+        android:text="WEEKS"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+    />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="700px"
+        android:layout_height="600px"
+        android:layout_gravity="center"
+        android:background="@android:color/black"/>
+    <TextView
+        android:layout_width="500px"
+        android:layout_height="170px"
+        android:textColor="#EBECF1"
+        android:text="Progress History"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="75dp"/>
+</LinearLayout>
